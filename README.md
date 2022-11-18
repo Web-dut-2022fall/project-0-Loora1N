@@ -2,11 +2,11 @@
 
 ## Guidepost
 
-- Homework--->[Click Here](https://web-dut-2022fall.github.io/project-0-Loora1N/project-0-Loora1N/)
-- Github--->[Click Here](https://github.com/Loora1N)
-- Blog--->[Click Here](https://loora1n.github.io/)
+- **Homework  --->  [Click Here](https://web-dut-2022fall.github.io/project-0-Loora1N/project-0-Loora1N/)**
+- **Github  --->  [Click Here](https://github.com/Loora1N)**
+- **Blog  --->  [Click Here](https://loora1n.github.io/)**
 
-## Project0
+## Project-0
 
 - Google Search
 ![google search](https://user-images.githubusercontent.com/102774816/202665049-21e7a230-0d60-4a2b-a17f-dfae64d9c123.png)
