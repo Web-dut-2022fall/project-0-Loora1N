@@ -1,0 +1,155 @@
+body {
+    margin: 0px;
+    height: 100vh;
+}
+
+input {
+    font-size: 16px;
+    width: 4%;
+    padding: 13px 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type=text] {
+    color: #3a3939;
+    width: 93%;
+}
+
+.header{
+    background-color: rgba(211, 211, 211, 0.2);
+}
+
+.header, .header-links {
+    display: flex;
+    align-items: right;
+}
+
+.header a {
+    color: black;
+    padding: 10px;
+    margin-left: auto;
+    text-decoration: none;
+}
+
+.header-links {
+    margin-left: auto;
+}
+
+.header-advanced-logo {
+    padding: 10px;
+}
+ 
+.header-advanced-logo img {
+    height: 30px;
+}
+
+.appbar {
+    margin: 30px 10px;
+}
+
+.appbar label {
+    color: #d93025;
+    font-size: 20px;
+    margin: 50px 30px;
+}
+
+.separator-line {
+    border-bottom: solid 1px #afafaf;
+}
+
+.search-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.search-box .text-box {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    border: 1px solid #afafaf;
+    align-items: center;
+    margin: 30px;
+    padding-left: 15px;
+}
+
+.search-box .text-box input {
+    border: none;
+    border-radius: 25px;
+}
+
+.footer {
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+    overflow: hidden;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(77, 72, 72);
+    font-size: 13px;
+}
+
+
+.advanced-search-container {
+    margin: 40px 40px;
+}
+
+.advanced-search-container label {
+    display: inline-block;
+    width: 16%;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.advanced-search-container .todo {
+    color: #afafaf;
+    font-weight: bold;
+}
+
+.advanced-search-container .whitespace {
+    display: inline-block;
+    width: 38%;
+}
+
+.advanced-search-container .form-group {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    padding: 5px 0;
+}
+
+.advanced-search-container .form-group label {
+    width: 16%;
+    font-size: 14px;
+}
+
+.advanced-search-container .form-group input[type=text] {
+    width: 35%;
+    padding: 2px 0;
+}
+
+.advanced-search-container .form-group .clarification {
+    font-size: 11px;
+    width: 30%;
+    margin-left: 3%;
+}
+
+.advanced-search-container .form-group .clarification .diffont {
+    font-family: monospace;
+}
+
+.advanced-search-container .form-group .right-align {
+    width: 50%;
+}
+
+input.search-button {
+    width: 8%;
+    float: right;
+    padding: 10px 28%;
+    margin: 0;
+}

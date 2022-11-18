@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="css/advanced.css" />
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-advanced-logo">
+                <a href="index.html">
+                    <img src="img/googlelogo.png" alt="Google logo" />
+                </a>
+            </div>
+            <div class="header-links" style="padding: 5px;">
+                <a href="index.html">Google Search</a>
+                <a href="image.html">Images Search</a>
+            </div>
+        </div>
+        <div class="separator-line"></div>
+        <div class="appbar">
+            <label>Advanced Search</label>
+        </div>
+        <div class="separator-line"></div>
+        <div class="advanced-search-container">
+            <form action="https://google.com/search" name="f1" target="_blank">
+                <label>Use the following criteria to search the web...</label>
+                <div class="form-group">
+                    <label>All of the following words:</label>
+                    <input type="text" name="as_q">
+                </div>
+                <div class="form-group">
+                    <label>Exactly matches the following terms:</label>
+                    <input type="text" name="as_epq">
+                </div>
+                <div class="form-group">
+                    <label>Any of the following words:</label>
+                    <input type="text" name="as_oq">
+                </div>
+                <div class="form-group">
+                    <label>Does not contain any of the following words:</label>
+                    <input type="text" name="as_eq">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
